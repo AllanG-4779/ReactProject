@@ -1,6 +1,7 @@
-import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-const Header = ({title}) => {
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+// This component contains everything in the header section
+const Header = ({ title }) => {
   return (
     <View style={styles.views}>
       <Text style={styles.heading}>{title}</Text>
@@ -12,9 +13,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   heading: {
-    backgroundColor: 'darkblue',
-    textAlign: 'center',
-    color: 'white',
+    backgroundColor: "darkblue",
+    textAlign: "center",
+    color: "white",
     height: 40,
     padding: 7,
     fontSize: 16,
